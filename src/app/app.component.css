@@ -1,0 +1,108 @@
+/* Fundo geral com gradiente */
+.app-bg {
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%) !important;
+  min-height: 100vh;
+}
+
+.text-color-primary {
+  color: #00adb5 !important;
+}
+
+.py-6 {
+  padding-top: 5.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+/* Ajuste dos textos e contraste */
+.text-light-emphasis {
+  color: #a1a1aa !important;
+}
+
+/* Links e itens do menu */
+a:hover,
+.list-group-item:hover {
+  color: #00adb5 !important;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+/* Botões */
+.btn-info {
+  background-color: #00adb5 !important;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-info:hover {
+  background-color: #38bdf8 !important;
+  transform: scale(1.05);
+}
+
+/* Cards e containers */
+.border-white {
+  border-color: #00adb5 !important;
+}
+
+.carousel,
+.border,
+footer {
+  background-color: rgba(15, 23, 42, 0.85) !important;
+}
+
+/* Ícones do footer */
+footer i {
+  color: #00adb5;
+  transition: transform 0.3s, color 0.3s;
+}
+
+footer i:hover {
+  color: #38bdf8;
+  transform: scale(1.1);
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.9);
+  border-left: 4px solid #00adb5;
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  color: #f8fafc;
+  box-shadow: 0 4px 10px rgba(0, 173, 181, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 173, 181, 0.4);
+}
+
+.depoimentos-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.depoimentos-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.depoimentos-container::-webkit-scrollbar-thumb {
+  background-color: #00adb5;
+  border-radius: 10px;
+}
+
+body {
+  margin-top: 80px; /* Espaço para a navbar fixa */
+}
+
+.navbar-fixa {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+}
+
+header {
+  margin-top: 80px;
+}
