@@ -22,4 +22,9 @@ export class AppComponent {
     link.download = 'Curriculo_Ronaldo_Sabino.pdf';
     link.click();
   }
+  controlCarousel: boolean = false;
+  control() {
+    this.controlCarousel = true;
+    console.log('control', this.controlCarousel);
+  }
 }

@@ -87,11 +87,11 @@
     <div data-aos="fade-down" data-aos-duration="1800" class="d-flex justify-content-center mt-5 mx-3" style="height: 150px;" id="carousel">
       <div id="carouselExampleControls" class="carousel slide d-flex align-items-center justify-content-center rounded-5" data-bs-ride="carousel" style="width: 600px;">
         <!-- Controls -->
-        <button class="carousel-control-prev text-white" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button (click)="control()" [class.opacity-0]="controlCarousel" class="carousel-control-prev text-white" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Anterior</span>
         </button>
-        <button class="carousel-control-next text-white" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button (click)="control()" [class.opacity-0]="controlCarousel" class="carousel-control-next text-white" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Próximo</span>
         </button>
@@ -170,11 +170,11 @@
     <h1 class="text-center my-4">FORMAÇÃO</h1>
     <ul class="list-unstyled text-center">
       <li class="border border-white rounded-4 px-3 py-4 card mb-4">🎓 Pós-Graduação em Engenharia de Software
-        <p class="my-2">Faculdade Senac Pernambuco — 2024</p>
+        <p class="my-2">Faculdade Focus • 2025 — Atualmente</p>
       </li>
 
       <li class="mt-3 border border-white rounded-4 p-3 card">🎓 Tecnólogo em Análise e Desenvolvimento de Sistemas
-        <p class="my-2">Faculdade Focus — Em progresso</p>
+        <p class="my-2">Faculdade Senac Pernambuco • 2022 — 2024</p>
       </li>
 
     </ul>
@@ -223,12 +223,12 @@
       <div class="mb-4 border border-white rounded-4 p-3 card">
         <h4 class="mb-3">Desenvolvedor Front-End — Elogica Processamento de Dados</h4>
         <small>2023 - Atualmente</small>
-        <p class="mt-3">Responsável por desenvolver interfaces modernas em Angular e otimizar a performance de aplicações web.</p>
+        <p class="mt-3">Responsável por desenvolver interfaces modernas em Angular e otimizar a performance de aplicações web. Além disso, realizo testes de carga e automatizei a documetnação de componetnes.</p>
       </div>
       <div class="border border-white rounded-4 p-3 card">
         <h4 class="mb-3">Estágiario — Elógica Processamento de Dados</h4>
         <small>2022 - 2023</small>
-        <p class="mt-3">Auxiliei no desenvolvimento de dashboards internos e automação de processos usando TypeScript e Bootstrap.</p>
+        <p class="mt-3">Responsável por desenvolver interfaces em Angular. Trabalho em equipe e desenvolvimento de habilidades.</p>
       </div>
     </div>
   </div>
