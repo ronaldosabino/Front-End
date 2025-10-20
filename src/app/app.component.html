@@ -64,10 +64,10 @@
   </div>
 
   <!-- Cabeçalho -->
-  <header class="text-center text-white py-5" data-aos="zoom-in">
+  <header class="text-center text-white pt-5 pb-3" data-aos="zoom-in">
     <img src="assets/avatar.png" class="shadow mb-4" alt="Foto de Perfil" width="200" height="200">
     <h1 class="fw-bold">Olá, eu sou <span class="text-color-primary">Ronaldo Sabino</span></h1>
-    <h3 class="text-light-emphasis mb-4">Desenvolvedor Front-End</h3>
+    <h2 class="text-light-emphasis mb-4">Desenvolvedor Front-End</h2>
     <button class="btn btn-info text-dark fw-semibold rounded-pill px-4 py-2" (click)="download()">
       Baixar currículo <i class="bi bi-download ms-2"></i>
     </button>
@@ -144,10 +144,10 @@
           <div class="carousel-item">
             <div class="d-flex justify-content-between align-items-center py-3 ps-3">
               <div class="text-left">
-                <h4>Storybook</h4>
-                <small>Ferramenta para testar e documentar componentes.</small>
+                <h4>GitLab</h4>
+                <small>Plataforma para gerenciar o ciclo de vida do desenvolvimento.</small>
               </div>
-              <img src="assets/storybook.png" alt="Imagem 3" class="img-fluid" width="150px" height="150px">
+              <img src="assets/gitlab.png" alt="Imagem 3" class="img-fluid" width="150px" height="150px">
             </div>
           </div>
 
@@ -159,6 +159,17 @@
                 <small>Ferramenta para realizar testes de carga.</small>
               </div>
               <img src="assets/k6.png" alt="Imagem 3" class="img-fluid" width="150px" height="150px">
+            </div>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-between align-items-center py-3 ps-3">
+              <div class="text-left">
+                <h4>Storybook</h4>
+                <small>Ferramenta para testar e documentar componentes.</small>
+              </div>
+              <img src="assets/storybook.png" alt="Imagem 3" class="img-fluid" width="150px" height="150px">
             </div>
           </div>
         </div>
@@ -217,11 +228,13 @@
   </div>
 
   <div class="text-white py-6 px-4 px-md-5 d-flex flex-column" id="experiencias" data-aos="fade-up">
-    <h1 class="text-center my-4">EXPERIÊNCIA</h1>
-    <div>
+
+    <h1 class="text-center my-4" data-aos="fade-up">EXPERIÊNCIAS</h1>
+    <div class="mb-4" data-aos="fade-up">
+      <h3 class="text-center text-color-primary mb-4 mt-1">PROFISSIONAIS</h3>
       <div class="mb-4 border border-white rounded-4 p-3 card">
         <h4 class="mb-3">Desenvolvedor Front-End — Elogica Processamento de Dados</h4>
-        <small>2023 - Atualmente</small>
+        <small>2024 - Atualmente</small>
         <p class="mt-3">Responsável pelo desenvolvimento e manutenção de interfaces responsivas utilizando Angular.</p>
 
         <p>Conduzo testes de carga para analisar e identificar fatores como capacidade de resposta e escalabilidade.</p>
@@ -232,8 +245,26 @@
       </div>
       <div class="border border-white rounded-4 p-3 card">
         <h4 class="mb-3">Estágiario — Elógica Processamento de Dados</h4>
+        <small>2023 - 2024</small>
+        <p>Responsável pelo desenvolvimento e manutenção de interfaces responsivas utilizando Angular.</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-up">
+      <h3 class="text-center text-color-primary mt-3 mb-4">ACADÊMICAS</h3>
+      <div class="mb-4 border border-white rounded-4 p-3 card">
+        <h4 class="mb-3">Bolsista - Programa de Extensão Tecnológica (FACEPE)</h4>
         <small>2022 - 2023</small>
-        <p class="mt-3">Responsável pelo desenvolvimento e manutenção de interfaces responsivas utilizando Angular.</p>
+        <p class="mt-3 fw-bolder">Inteligência nos Negócios com uso de IA, Machine Learning e BI</p>
+
+        <p>Responsável pela criação de dashboards interativos no Power BI, transformando dados em insights visuais auxiliando na tomada de decisões.</p>
+      </div>
+      <div class="border border-white rounded-4 p-3 card">
+        <h4 class="mb-3">Bolsista - Programa de Extensão Tecnológica (FACEPE)</h4>
+        <small>2022</small>
+        <p class="mt-3 fw-bolder">Chatbot para agendamento de consultas ambulatoriais e procedimentos cirúrgicos</p>
+
+        <p>Responsável pela prototipação e design da interface no Figma, focando em uma experiência de uso intuitiva e eficiente.</p>
       </div>
     </div>
   </div>
